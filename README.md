@@ -13,6 +13,6 @@ En este proyecto se utiliaron 3 modelos:
  
  Para las pruebas se utilizó colab.research.google.com/
  El DataSet estuvo cargado en Google Drive y se lo llamó desde Colab utilizando la librería
-  from google.colab import drive
-  drive.mount("/content/drive")
-  ftc = pd.read_csv("drive/My Drive/Fraude Bancario/creditcard.csv")
+  -from google.colab import drive
+  -drive.mount("/content/drive")
+  -ftc = pd.read_csv("drive/My Drive/Fraude Bancario/creditcard.csv")
